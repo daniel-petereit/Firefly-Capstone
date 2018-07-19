@@ -1,0 +1,452 @@
+body {
+  background-color: #141518;
+  line-height: .9;
+  color: #f2f2f2
+}
+
+/*-----------------------------------*/
+/*--------NAVBAR BELOW THIS----------*/
+/*-----------------------------------*/
+
+#navbar {
+  background-color: #34373D;
+}
+
+.btnGroup {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  height: 100%;
+  width: 450px;
+}
+
+button.btn.waves-effect.waves-light {
+  position:relative;
+  display: inline-block;
+  border: 1px solid #1bb76e;
+  font-size: 12px;
+  border-radius: 3px;
+  background: #1bb76e;
+  margin: 12px 0 0 20px;
+  float:left;
+}
+
+.btnGroup2 {
+  float:left;
+  margin-right: 700px;
+}
+
+nav .nav-wrapper i {
+  display: inline-block;
+  font-size: 24px;
+  height: 50px;
+  line-height: 35px;
+}
+
+.nav-wrapper div.col, .nav-wrapper ul {
+  height: 100%;
+}
+
+.chip {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: #34373D;
+  color: white;
+}
+
+.chip:hover {
+  background-color: #696464;
+}
+
+/* div {
+  display: block;
+  font: inherit;
+} */
+
+/* a.brand-logo {
+  padding-left: 10px;
+}
+
+div.nav-wrapper {
+  background-color: #34373D;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+button.btn.waves-effect.waves-light {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #1bb76e;
+  font-size: 12px;
+  border-radius: 3px;
+  background: #1bb76e;
+  margin: 12px 0 0 20px;
+  float:left;
+}
+
+/*-----------------------------------*/
+/*--------NAVBAR ABOVE THIS----------*/
+/*-----------------------------------*/
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 0 rgba(0,0,0,.8);
+}
+
+.signin-callout {
+  font-size: 11px;
+  letter-spacing: .03em;
+  line-height: 28px;
+  color: #fff;
+}
+
+#signin-container {
+  position: relative;
+  width: 350px;
+  height: 620px;
+  padding-top: 80px;
+  margin: auto;
+  z-index: 2;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+#signup-container {
+  position: relative;
+  width: 350px;
+  height: 620px;
+  padding-top: 80px;
+  margin: auto;
+  z-index: 2;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+#register {
+  padding: 2px 15px 0px 15px;
+  display: block;
+  border-radius: 5px;
+  background-color: #2C2F35;
+  max-width: 350px;
+  max-height: 209px;
+}
+
+#signup {
+  padding: 2px 15px 0px 15px;
+  display: block;
+  border-radius: 5px;
+  background-color: #2C2F35;
+  max-width: 350px;
+  max-height: 104px;
+}
+
+#password2 {
+  width: 262px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+a.forgot-password:hover {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+a.forgot-password {
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.forgot-password {
+    position: relative;
+    margin-left: 262px;
+    top: -20px;
+    padding: 9px 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    background: #404040;
+}
+
+/* #register-form {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #2C2F35;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
+  vertical-align: baseline;
+
+  justify-content: space-between;
+  height: auto;
+  padding: 3%; */
+  /* padding: 3%; */
+/* } */
+
+input[type=text], input[type=password], input[type=email], textarea {
+  font-family: inherit;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+  background-color: #191919;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  font-size: .8em;
+  line-height: 1.5em;
+  resize: none;
+  color: #f2f2f2;
+  margin-bottom: -3px;
+  letter-spacing: .02em;
+  max-width: 320px;
+  max-height: 32px;
+}
+
+input[type=text], input[type=password] {
+  height: 32px;
+}
+
+#signup-register-link {
+color:inherit;
+font-size: 14px;
+margin-left: 100px;
+}
+
+#signin-register-link {
+color:inherit;
+font-size: 14px;
+margin-left: 150px;
+}
+
+.signin-register {
+  padding:10px;
+}
+
+.terms-of-service {
+  color:inherit;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.terms {
+  color:inherit;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.signin-social {
+  background-color: #2C2F35;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  vertical-align: baseline;
+  justify-content: space-between;
+  height: auto;
+  padding: 3%;
+}
+
+.signin-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.signin {
+  max-width: 86px;
+  width: 74px;
+  height: 40px;
+  padding-top: 8px;
+  border-bottom: 5px solid;
+  cursor: pointer;
+}
+
+/* needs to be below .signin so border bottom color stays #3A558E*/
+.facebook-icon {
+  border-bottom-color: #3A558E;
+  font-size: 21px;
+}
+
+.facebook-icon:hover {
+  background-color: #3A558E;
+}
+
+.twitter-icon {
+  border-bottom-color: #2D90FF;
+  font-size: 21px;
+}
+
+.twitter-icon:hover {
+  background-color: #2D90FF
+}
+
+.google-icon {
+  border-bottom-color: #E2371B;
+  font-size: 21px;
+}
+
+.google-icon:hover {
+  background-color: #E2371B;
+}
+
+.amazon-icon {
+  border-bottom-color: #FF9700;
+  font-size: 21px;
+}
+
+.amazon-icon:hover {
+  background-color: #FF9700;
+}
+
+.br5 {
+  border-radius: 5px;
+}
+
+/* ----------------------------------- */
+/* ----------or with Imgur------------ */
+/* ----------------------------------- */
+
+.fade-break {
+  background: url(/fading-section-break.png) no-repeat;
+  margin-right: 3px;
+  margin-left: 7px;
+  opacity: .7;
+  width: 129px;
+  height: 3px;
+  display: inline-block;
+}
+
+.fade-break-flip {
+  background: url(/fading-section-break.png) no-repeat;
+  margin-right: 3px;
+  margin-left: 7px;
+  opacity: .7;
+  width: 129px;
+  height: 3px;
+  display: inline-block;
+  transform: rotate(180deg) translate(2px,2px);
+}
+
+/* ----------------------------------- */
+/* ----------or with Imgur------------ */
+/* ----------------------------------- */
+
+.lvl1-dark {
+  background: #212121;
+}
+/* ----------------------------------- */
+/* -----------Sign In Button---------- */
+/* ----------------------------------- */
+
+button {
+  align-items: flex-start;
+  text-align: center;
+
+}
+
+.signin-button {
+  max-width: 350px;
+  max-height: 50px;
+  width: 350px;
+  height: 39px;
+  margin-top: 15px;
+  padding-right: 15px;
+}
+
+.signup-button {
+  max-width: 350px;
+  max-height: 50px;
+  width: 350px;
+  height: 39px;
+  margin-top: 35px;
+  padding-right: 15px;
+}
+
+.btn {
+  padding: 10px 15px 25px 15px;
+  outline: 0;
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  border-radius: 2px;
+  font-size: 12px;
+  border: none;
+  font-family: 'Open Sans',sans-serif;
+  line-height: normal;
+}
+
+.btn-action {
+    background: #5c69ff;
+    border: none;
+}
+
+.btn-action:hover {
+    background: #6672ff;
+    border: none;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #2C2F35;
+  max-width: 550px;
+  padding: 25px;
+  max-height: auto;
+  margin:auto;
+  flex-direction: column;
+}
+
+.tos-container {
+  padding: 15px;
+  background: #141519;
+}
+
+.outer-div {
+  max-width:50%;
+  margin:auto;
+}
+
+.inner-div {
+  max-width: 100%;
+  text-align: center;
+  background: #000;
+  position: relative;
+}
+
+.upload-container {
+  max-width: 700px;
+}
+
+.cloud-upload {
+  margin: -10px;
+}
+
+.search-icon {
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.uploading {
+  background-color: red;
+}
+
+/* ----------------------------------- */
+/* -----------Sign In Button---------- */
+/* ----------------------------------- */
